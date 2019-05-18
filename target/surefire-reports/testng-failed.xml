@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="MavenRepository.listeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="MavenRepository.Homepage">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="browseriniatiate"/>
+          <include name="homepage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- MavenRepository.Homepage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="MavenRepository.NavigationValidation">
+        <methods>
+          <include name="browseriniatiate"/>
+          <include name="homepage"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- MavenRepository.NavigationValidation -->
+      <class name="MavenRepository.PageValidation">
+        <methods>
+          <include name="homepage"/>
+          <include name="closebrowser"/>
+          <include name="browseriniatiate"/>
+        </methods>
+      </class> <!-- MavenRepository.PageValidation -->
+      <class name="MavenRepository.Homepage">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="browseriniatiate"/>
+          <include name="homepage"/>
+        </methods>
+      </class> <!-- MavenRepository.Homepage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

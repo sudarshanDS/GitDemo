@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="60" started-at="2019-05-01T16:54:00Z" finished-at="2019-05-01T16:54:00Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="60" started-at="2019-05-01T16:54:00Z" finished-at="2019-05-01T16:54:00Z">
+      <class name="MavenRepository.AppiumTest">
+        <test-method status="PASS" signature="openApp()" name="openApp" duration-ms="46" started-at="2019-05-01T16:54:00Z" finished-at="2019-05-01T16:54:00Z">
+        </test-method>
+      </class>
+      <class name="MavenRepository.seleniumTest">
+        <test-method status="PASS" signature="URLopen()" name="URLopen" duration-ms="1" started-at="2019-05-01T16:54:00Z" finished-at="2019-05-01T16:54:00Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

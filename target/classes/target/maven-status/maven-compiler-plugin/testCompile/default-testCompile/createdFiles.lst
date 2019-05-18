@@ -1,0 +1,7 @@
+MavenRepository\Homepage.class
+MavenRepository\seleniumTest.class
+MavenRepository\AppTest.class
+MavenRepository\listeners.class
+MavenRepository\PageValidation.class
+MavenRepository\AppiumTest.class
+MavenRepository\NavigationValidation.class
